@@ -49,7 +49,7 @@ function App() {
     </div>
     </div>
     {/* Explore More */}
-    <div className="text-center my-2 border">
+    <div className="text-center my-2">
       <h1 className="py-5 text-2xl md:text-4xl font-bold underline my-2">Explore More</h1>
       <div className="flex justify-center flex-wrap">
       <Exploremore photo={gangtok} name="Gangtok" des="Gangtok features MG Road, a lively shopping area; Tsomgo Lake, a beautiful glacial lake; Nathula Pass, a scenic border crossing; and Rumtek Monastery, a spiritual site.."/>
