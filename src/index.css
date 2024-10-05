@@ -1,0 +1,17 @@
+.bd{
+    background-image: url('../public/img/nathula_four.webp');
+    transition: background-image 2s ease-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(100%); 
+    color:white;
+    height: 100vh;
+}
+.root{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+}
+/* hide Scroll Bar */
+::-webkit-scrollbar {
+    display: none;
+}
