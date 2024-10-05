@@ -1,6 +1,6 @@
 .bd{
     background-image: url('../public/img/nathula_four.webp');
-    transition: background-image 2s ease-out;
+    transition: background-image 1s ease-out;
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(100%); 

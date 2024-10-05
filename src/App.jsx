@@ -34,7 +34,7 @@ function App() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length);
-    }, 15000); // 5000 milliseconds = 5 seconds
+    }, 10000); // 5000 milliseconds = 5 seconds
 
     // Cleanup interval on component unmount
     return () => clearInterval(intervalId);
