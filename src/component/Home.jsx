@@ -20,9 +20,10 @@ let Home = ()=>{
     return(
         <>
         <div className="flex flex-col justify-center justify-items-center h-[40rem] md:h-[45em] text-center">
-           <h1 className="text-lg md:text-4xl py-1 font-medium">Get up to 40% OFF on</h1>
+           <h1 className="text-xl md:text-4xl py-1 font-medium">Get up to <span className="text-red-600">40% OFF* </span>on</h1>
            <h1 className="text-2xl md:text-6xl py-2 md:py-4 font-bold"><span className="text-yellow-400">Sikkim </span><span ref={el}></span></h1>
-           <p className="text-lg md:text-2xl px-2 md:px-10 py-4 text-pretty">"Sikkim: a hidden gem in the Himalayas, where breathtaking landscapes, vibrant culture, and the warmth of its people create a serene retreat for every adventurer."</p>
+           <p className="text-lg md:text-2xl px-2 md:px-10 py-4 text-pretty text-center mx-auto max-w-4xl">
+  "Sikkim: a hidden gem in the Himalayas, where breathtaking landscapes, vibrant culture, and the warmth of its people create a serene retreat for every adventurer."</p>
            <button className="btn btn-primary w-40 md:w-44 mx-auto my-9 font-semibold md:h-12 ">Explore More &#8594;
            </button>
         </div>

@@ -1,6 +1,6 @@
 .bd{
     background-image: url('../public/img/nathula_four.webp');
-    transition: background-image 3s ease-in;
+    transition: background-image 3s ease-in, filter 0.5s ease-in;
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,6 +8,7 @@
     color:white;
     height: 100vh;
 }
+ 
 .root{
     background-color: rgba(0, 0, 0, 0.6);
     height: 100vh;

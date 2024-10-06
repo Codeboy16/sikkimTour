@@ -9,9 +9,9 @@ let Exploremore = (props) => {
                 alt={props.name}
             />
             <h1 className="text-center font-bold text-lg md:text-xl py-2">{props.name}</h1>
-            <p className="text-gray-600 px-2 md:px-4 text-sm mb-4 font-bold">{props.des}</p>
+            <p className="text-gray-600 mx-2 px-2 text-sm mb-4 font-bold">{props.des}</p>
             <a href="#" className="block w-full my-4">
-                <button className="w-60 py-2 bg-blue-600 text-white font-semibold rounded-lg transition-colors duration-300 hover:bg-blue-700">
+                <button className="w-40 md:w-60 py-2 bg-blue-600 text-white font-semibold rounded-lg transition-colors duration-300 hover:bg-blue-700">
                     Book Now
                 </button>
             </a>
