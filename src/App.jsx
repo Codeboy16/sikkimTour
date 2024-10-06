@@ -30,14 +30,14 @@ function App() {
     "url('/img/tsomgo_lake.jpg')",
     "url('/img/tsongmo.jpg')",
   ];
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [currentImageIndex, setCurrentImageIndex] = useState(1);
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length);
     }, 10000); // 5000 milliseconds = 5 seconds
 
     // Cleanup interval on component unmount
-    return () => clearInterval(intervalId);
+    // return () => clearInterval(intervalId);
   }, [backgroundImages.length]);
   //Main Code Here
   return (
